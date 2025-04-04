@@ -25,14 +25,15 @@ author:
   avatar           : "profile.png"
   name             : "李华健<br>Huajian Li"
   bio              : "材料学博士生<br>Ph.D. Candidate in Materials Science"
-  location         : "武汉<br>Wuhan"
+  location         : "武汉/Wuhan"
+  Phone         : "13252855587"
   email            : "huajian_li@hust.edu.cn" 
 
 
 
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  #bluesky          : "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
