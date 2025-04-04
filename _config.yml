@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Huajian Li"
+title                    : "Huajian Li/Personal Homepage"
 title_separator          : "-"
 name                     : &name "Huajian Li"
 description              : &description "personal description"
@@ -24,20 +24,12 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "李华健/Huajian Li"
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Wuhan"
+  bio              : "材料学博士生/Ph.D. Candidate in Materials Science"
+  location         : "武汉/Wuhan"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "huajian_li@hust.edu.cn" 
 
-  # Academic websites
-  arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
-  semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
-  scopus           : # URL
+
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
