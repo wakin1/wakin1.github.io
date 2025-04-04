@@ -2,7 +2,7 @@
 title: "Underwater target detection using hybrid carbon nanotube self-adhesive sensors"
 collection: publications
 category: manuscripts
-permalink: "https://doi.org/10.1016/j.device.2023.100223"
+permalink: "https://www.cell.com/device/fulltext/S2666-9986(23)00363-0?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2666998623003630%3Fshowall%3Dtrue"
 excerpt: 'This paper presents a self-adhesive carbon nanotube-based underwater sensor with high sensitivity, robust adhesion, and the ability to classify signals using neural networks. The approach combines material design, device integration, and machine learning techniques to realize intelligent underwater pressure sensing applications.'
 date: 2024-01-19
 venue: 'Device'
