@@ -14,7 +14,6 @@ redirect_from:
   padding: 0;
 }
 </style>
-
 ## 🎓 教育背景 / Education
 
 - 📘 博士（硕博贯通），材料科学与工程，华中科技大学，2020 – 至今  
@@ -31,8 +30,6 @@ redirect_from:
 
 <p style="font-size: 0.8em; text-indent: 2em; line-height: 1.6;">
 该课题主要解决碳纳米材料制备不可控、性能不均一问题。通过引入人工神经网络和遗传优化算法，在建立碳纳米管阵列材料基因工程数据库的基础上，构建了其生长参数与结构性能之间的构效关系，实现了基于生长参数对其微观结构参数和宏观力学性能参数的预测，并进一步结合遗传优化算法实现了基于结构参数反向设计其生长参数。<br><br>
-</p>
-<p style="font-size: 0.8em; text-indent: 2em; line-height: 1.6;">
 This work addresses the challenges of uncontrollable synthesis and performance inconsistency in carbon nanomaterials. By integrating artificial neural networks and genetic optimization algorithms, a materials genome engineering database for carbon nanotube arrays was established. On this basis, quantitative structure–property relationships between synthesis parameters and structural/mechanical performance were constructed. Predictive modeling of microstructural and macroscopic mechanical properties based on growth parameters was achieved, and inverse design of synthesis conditions from target structural attributes was further realized through genetic algorithm-based optimization.
 </p>
 
