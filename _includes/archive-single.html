@@ -28,7 +28,7 @@
     {% endif %}
 
     <!-- ✅ 标题区域：专利跳转 PDF，其他正常跳详情页 -->
-    <h2 class="archive__item-title" itemprop="headline">
+    <h2 class="archive__item-title {% if post.category == 'patent' %}patent-title{% endif %}" itemprop="headline">
       {% if post.category == "patent" and post.paperurl %}
         <a href="{{ post.paperurl }}" download>{{ title }}</a>
       {% elsif post.link %}

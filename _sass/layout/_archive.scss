@@ -48,9 +48,8 @@
   }
 }
 
-/* remove border*/
+/* remove border */
 .page__content {
-
   .archive__item-title {
     margin-top: 1em;
     border-bottom: none;
@@ -69,6 +68,7 @@
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;
+
   img {
     width: 100%;
   }
@@ -84,11 +84,9 @@
   }
 }
 
-
 /*
    List view
    ========================================================================== */
-
 .list__item {
   @include breakpoint($medium) {
     padding-right: $right-sidebar-width-narrow;
@@ -107,11 +105,9 @@
   }
 }
 
-
 /*
    Grid view
    ========================================================================== */
-
 .grid__item {
   margin-bottom: 2em;
 
@@ -130,14 +126,15 @@
 
   @include breakpoint($small) {
     @include gallery(5 of 10);
+
     .archive__item-teaser {
       max-height: 200px;
     }
   }
 
   @include breakpoint($medium) {
-    margin-left: 0; /* reset before mixin does its thing*/
-    margin-right: 0; /* reset before mixin does its thing*/
+    margin-left: 0; /* reset before mixin does its thing */
+    margin-right: 0;
     @include gallery(2.5 of 10);
 
     .archive__item-teaser {
@@ -151,11 +148,9 @@
   }
 }
 
-
 /*
    Features
    ========================================================================== */
-
 .feature__wrapper {
   @include clearfix();
   margin-bottom: 2em;
@@ -242,4 +237,14 @@
       }
     }
   }
+}
+
+/* ==========================================================================
+   ✅ 自定义标题链接颜色与样式（专利 & 访问过的链接保持统一）
+   ========================================================================== */
+.archive__item-title a,
+.archive__item-title a:visited {
+  color: #2f7f93 !important;
+  font-size: 1rem;
+  font-weight: normal;
 }
