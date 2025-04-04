@@ -30,8 +30,6 @@ h2 {
 
 ## 📌 研究方向 / Research Interests
 
-## 📌 研究方向 / Research Interests
-
 - [基于人工智能的碳纳米材料结构可控制备、性能预测与反向设计](/research/ai-carbon/)  
   [AI-enabled controlled synthesis, structure–property prediction, and inverse design of carbon nanomaterials](/research/ai-carbon/)
 
