@@ -1,14 +1,15 @@
 ---
-title: "Paper Title Number 1"
+title: "Underwater target detection using hybrid carbon nanotube self-adhesive sensors"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/2024-01-19-underwater-cnt-sensor
+excerpt: 'This work demonstrates a self-adhesive hybrid CNT-based pressure sensor with high sensitivity (18 mPa) and neural network-assisted signal classification for underwater target detection.'
+date: 2024-01-19
+venue: 'Device'
+slidesurl: ''
+paperurl: '/files/underwater-cnt-sensor.pdf'
+bibtexurl: ''
+citation: 'Li, H., Liu, Y., Ye, Z., Zhang, Q., Yang, S., & Xu, M. (2024). "Underwater target detection using hybrid carbon nanotube self-adhesive sensors." <i>Device</i>, 2, 100223.'
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+
+This paper presents a self-adhesive carbon nanotube-based underwater sensor with high sensitivity, robust adhesion, and the ability to classify signals using neural networks. The approach combines material design, device integration, and machine learning techniques to realize intelligent underwater pressure sensing applications.
