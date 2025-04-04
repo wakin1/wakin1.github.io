@@ -239,12 +239,11 @@
   }
 }
 
-/* ==========================================================================
-   ✅ 自定义标题链接颜色与样式（专利 & 访问过的链接保持统一）
-   ========================================================================== */
-.archive__item-title a,
-.archive__item-title a:visited {
+/* 全局统一超链接颜色 */
+a,
+a:visited,
+a:hover,
+a:active {
   color: #2f7f93 !important;
-  font-size: 1rem;
-  font-weight: normal;
+  text-decoration: none; /* 如果你不想显示下划线，可以添加这一行 */
 }
