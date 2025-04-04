@@ -1,5 +1,5 @@
 ---
-title: '<a href="https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202201046" style="color:48A6A7;">Structural Design and Fabrication of Multifunctional Nanocarbon Materials for Extreme Environmental Applications</a>'
+title: '<a href="https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202201046" style="color:#2a7ae2;">2. Structural Design and Fabrication of Multifunctional Nanocarbon Materials for Extreme Environmental Applications</a>'
 collection: publications
 category:  first-author
 excerpt: '本文聚焦于碳纳米材料在极端环境（高温、高压、腐蚀、辐照）中的结构设计与性能调控，阐述了多尺度结构工程对其多功能性的构建作用。<br>  
