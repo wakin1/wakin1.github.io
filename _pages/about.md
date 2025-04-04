@@ -1,6 +1,8 @@
 ---
 permalink: /
+<p style="font-size: 0.2em; text-indent: 2em; line-height: 1.6;">
 title: ""
+</p>
 author_profile: true
 redirect_from: 
   - /about/
