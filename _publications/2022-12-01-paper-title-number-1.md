@@ -7,6 +7,6 @@ excerpt: 'This review presents a comprehensive overview of the structural design
 date: 2022-12-01
 venue: 'Advanced Materials'
 paperurl: '/files/review.pdf'
-citation: 'Wu, S., Li, H., Futaba, D. N., Chen, G., Chen, C., Zhou, K., Zhang, Q., Li, M., Ye, Z., & Xu, M. (2022). "Structural Design and Fabrication of Multifunctional Nanocarbon Materials for Extreme Environmental Applications." <i>Advanced Materials</i>, 34(52), 2201046.'
+citation: 'Wu, S., </strong>Li, H.(共一)</strong>, Futaba, D. N., Chen, G., Chen, C., Zhou, K., Zhang, Q., Li, M., Ye, Z., & Xu, M. (2022). "Structural Design and Fabrication of Multifunctional Nanocarbon Materials for Extreme Environmental Applications." <i>Advanced Materials</i>, 34(52), 2201046.'
 ---
 
