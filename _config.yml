@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "huajian li / Site Title"
+title                    : "Huajian Li"
 title_separator          : "-"
-name                     : &name "huajian li"
+name                     : &name "Huajian Li"
 description              : &description "personal description"
 url                      : https://wakin1.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -23,10 +23,9 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "huajian li"
+  name             : "李华健/Huajian Li"
   bio              : "Short biography for the left-hand sidebar"
   location         : "Wuhan"
-  employer         : "University"
   uri              : # URL
   email            : "none@example.org" 
 
