@@ -20,15 +20,15 @@ h2 {
 }
 </style>
 
-## 🎓 教育背景 / Education
+##  教育背景 / Education
 
-- 📘 博士（硕博贯通），材料科学与工程，华中科技大学，2020 – 至今  
+-  博士（硕博贯通），材料科学与工程，华中科技大学，2020 – 至今  
   Ph.D. Candidate in Materials Science and Engineering, Huazhong University of Science and Technology, 2020 – Present
 
-- 📗 本科，材料成型及控制工程，东北大学，2016 – 2020  
+-  本科，材料成型及控制工程，东北大学，2016 – 2020  
   B.Eng. in Material Forming and Control Engineering, Northeastern University, 2016 – 2020
 
-## 📌 研究方向 / Research Interests
+## 研究方向 / Research Interests
 
 - [基于人工智能的碳纳米材料结构可控制备、性能预测与反向设计](/research/ai-carbon/)  
   [AI-enabled controlled synthesis, structure–property prediction, and inverse design of carbon nanomaterials](/research/ai-carbon/)
