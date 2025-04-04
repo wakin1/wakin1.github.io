@@ -66,6 +66,16 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+  manuscripts:
+    title: 'Journal Articles'    
+  conferences:
+    title: 'Conference Papers'
+  first-author:
+    title: "First-Author Publications"
+  co-author:
+    title: "Co-Author Publications"
+  patent:
+    title: "Patens"
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"

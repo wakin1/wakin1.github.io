@@ -1,7 +1,7 @@
 ---
 title: '<a href="https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202201046" style="color:#2f7f93;">Structural Design and Fabrication of Multifunctional Nanocarbon Materials for Extreme Environmental Applications</a>'
 collection: publications
-category: manuscripts
+category:  first-author
 excerpt: 'This review presents a comprehensive overview of the structural design principles and fabrication strategies of nanocarbon materials for reliable performance in extreme environments. It highlights the key roles of CNTs and graphene in thermal, electrical, mechanical, and chemical resistance, and emphasizes how structural engineering at both the atomic and macroscopic scale enables multifunctionality across harsh conditions such as extreme temperatures, high pressures, corrosion, and radiation.'
 date: 2022-12-01
 venue: 'Advanced Materials'

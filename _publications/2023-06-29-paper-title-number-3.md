@@ -1,7 +1,7 @@
 ---
 title: '<a href="https://doi.org/10.1016/j.scib.2023.06.025" style="color:#2f7f93;">Strategies for enhancing low-frequency performances of triboelectric, electrochemical, piezoelectric, and dielectric elastomer energy harvesting</a>'
 collection: publications
-category: manuscripts
+category: co-author
 excerpt: 'This review systematically summarizes four typical low-frequency energy harvesting technologies—triboelectric, electrochemical, piezoelectric, and dielectric elastomer—and discusses challenges and optimization strategies for improving output performance and stability in practical applications.'
 date: 2023-06-29
 venue: 'Science Bulletin'
