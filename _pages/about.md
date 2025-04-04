@@ -1,15 +1,19 @@
 ---
 permalink: /
-title: "个人主页/Homepage"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-我是华中科技大学材料科学与工程学院博士研究生，主要研究方向为碳基水下压力传感器件。 
- 
-I am a Ph.D. candidate in the School of Materials Science and Engineering at Huazhong University of Science and Technology. My research focuses on carbon-based underwater pressure sensing devices.
+## 🎓 教育背景 / Education
+
+- 📘 博士（硕博贯通），材料科学与工程，华中科技大学，2020 – 至今  
+  Ph.D. Candidate in Materials Science and Engineering, Huazhong University of Science and Technology, 2020 – Present
+
+- 📗 本科，材料成型及控制工程，东北大学，2016 – 2020  
+  B.Eng. in Material Forming and Control Engineering, Northeastern University, 2016 – 2020
 
 
 ## 📌 研究方向 / Research Interests
