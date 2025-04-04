@@ -6,5 +6,5 @@ excerpt: 'This paper presents a self-adhesive carbon nanotube-based underwater s
 date: 2024-01-19
 venue: 'Device'
 paperurl: '/files/underwater-cnt-sensor.pdf'
-citation: '*Li, H.*, Liu, Y., Ye, Z., Zhang, Q., Yang, S., & Xu, M. (2024). "Underwater target detection using hybrid carbon nanotube self-adhesive sensors." <i>Device</i>, 2, 100223.'
+citation: '<strong>Li, H.<strong>, Liu, Y., Ye, Z., Zhang, Q., Yang, S., & Xu, M. (2024). "Underwater target detection using hybrid carbon nanotube self-adhesive sensors." <i>Device</i>, 2, 100223.'
 ---
