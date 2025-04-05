@@ -27,8 +27,8 @@
       </div>
     {% endif %}
 
-    <!-- ✅ 标题区域：专利跳转 PDF，其他正常跳详情页 -->
-    <h2 class="archive__item-title {% if post.category == 'patent' %}patent-title{% endif %}" itemprop="headline">
+    <!-- ✅ 专利跳转 PDF，其他跳详情页 -->
+    <h2 class="archive__item-title" itemprop="headline">
       {% if post.category == "patent" and post.paperurl %}
         <a href="{{ post.paperurl }}" download>{{ title }}</a>
       {% elsif post.link %}
@@ -46,12 +46,12 @@
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
 
-    <!-- ✅ 日期区域：排除专利 -->
+    <!-- ✅ 日期显示（排除专利） -->
     {% if post.collection == 'teaching' %}
       <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
     {% elsif post.collection == 'publications' and post.category != "patent" %}
       <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-    {% elsif post.date %}
+    {% elsif post.date and post.category != "patent" %}
       <p class="page__date">
         <strong>
           <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
@@ -71,7 +71,7 @@
       </p>
     {% endif %}
 
-    <!-- ✅ 下载区域：不显示专利的任何下载按钮 -->
+    <!-- ✅ 下载区域（排除专利） -->
     {% unless post.category == "patent" %}
       {% if post.citation and post.paperurl and post.slidesurl and post.bibtexurl %}
         <p>Recommended citation: {{ post.citation }}<br />
