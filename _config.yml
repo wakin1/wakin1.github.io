@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Huajian Li/Personal Homepage"
+title                    : "Personal Homepage"
 title_separator          : "-"
 name                     : &name "Huajian Li"
 description              : &description "personal description"
@@ -26,7 +26,7 @@ author:
   name             : "李华健<br>Huajian Li"
   bio              : "材料专业博士在读<br>Ph.D. Candidate in Materials Science"
   location         : "中国 武汉/Wuhan China"
-  Phone         : "13252855587"
+  Phone         : "13252855587(微信同号)"
   email            : "huajian_li@hust.edu.cn" 
 
 
