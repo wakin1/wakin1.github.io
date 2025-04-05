@@ -35,6 +35,8 @@
     <a href="{{ post.imgurl }}" target="_blank">{{ title }}</a>
   {% elsif post.imgurl and post.collection == "portfolio" %}
     <a href="{{ post.imgurl }}" target="_blank">{{ title }}</a>
+  {% elsif post.imgurl and post.collection == "skills" %}
+    <a href="{{ post.imgurl }}" target="_blank">{{ title }}</a>
   {% elsif post.link %}
     <a href="{{ post.link }}">{{ title }}</a>
     <a href="{{ base_path }}{{ post.url }}" rel="permalink">
@@ -45,6 +47,7 @@
     <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
   {% endif %}
 </h2>
+
 
 
 
