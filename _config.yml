@@ -218,7 +218,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-
+  skills:
+    output: true
+    permalink: /:collection/:path/
 
 # These settings control how pages and collections are included in the site
 defaults:
@@ -275,7 +277,15 @@ defaults:
       layout: Poster
       author_profile: true
       share: true
-
+  # _skills
+  - scope:
+      path: ""
+      type: skills
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
 
 # Sass/SCSS
 sass:
