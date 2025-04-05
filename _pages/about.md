@@ -48,41 +48,19 @@ h2 {
 
 ## 🧩 项目经历 / Project Experience
 
-### 中央军委科技委基础加强项目：“水下低频智能化XX”（2022.07 – 2025.06）  
-**Basic Reinforcement Program, Central Military Commission – "Intelligent Underwater Low-Frequency XX"**  
-主要研究人员 / Core Technical Member  
-- 针对水下低频目标难以探测的问题，提出以离子迁移代替电子传导的工作机制，研制新型水下低频压力传感器件。  
-  *Developed a novel underwater low-frequency pressure sensor based on ion migration instead of electron conduction to address detection challenges for low-frequency underwater targets.*  
-- 结合力学仿真与性能测试，实现了频率 5 Hz 以下目标的有效探测。  
-  *Integrated mechanical simulation and experimental testing to achieve target detection below 5 Hz.*
+-中央军委科技委基础加强项目：“水下低频智能化XX”（2022.07 – 2025.06）  
+ 主要研究人员 / Core Technical Member  
+ 针对水下低频目标难以探测的问题，提出以离子迁移代替电子传导的工作机制，研制新型水下低频压力传感器件，结合力学仿真、性能测试，实现了频率5Hz以下水下目标的探测。
 
----
+-中央军委科技委重点专项：“水下特种作业人员XX”（2023.10 – 2026.09）  
+ 主要研究人员 / Core Technical Member  
+ 针对水下特种作业人员执行任务过程中生命体征信号监测覆盖不全面的问题，提出跨尺度凹槽结构设计的工作机制，开发了一种覆盖人体呼吸、心跳、足底、膝盖处等多部位压力监测的传感器件。
 
-### 中央军委科技委重点专项：“水下特种作业人员XX”（2023.10 – 2026.09）  
-**Key Program, Central Military Commission – "Special Operations Personnel Underwater XX"**  
-主要研究人员 / Core Technical Member  
-- 针对水下特种作业过程中生命体征监测覆盖不全的问题，提出跨尺度凹槽结构设计方案。  
-  *Proposed a cross-scale groove-structured sensor design to enhance physiological signal coverage during underwater operations.*  
-- 研制多部位（呼吸、心跳、足底、膝盖）压力监测传感器件，实现复杂状态感知。  
-  *Developed multi-site pressure sensors covering respiration, heartbeat, soles, and knees to enable complex physiological state monitoring.*
+-深圳市科技创新基础研究项目：“新型智能化海洋低频信号探测技术研究”（2021.11 – 2024.10）  
+ 主要研究人员 / Core Technical Member  
+ 针对水下传感器工作环境复杂，数据量大导致识别精度低的问题，提出将人工智能神经网络与传感器结合的方法，实现了水下不同频率单一目标和多目标的识别。
 
----
-
-### 深圳市科技创新基础研究项目：“新型智能化海洋低频信号探测技术研究”（2021.11 – 2024.10）  
-**Shenzhen Basic Research Program – "Novel Intelligent Marine Low-Frequency Signal Detection"**  
-主要研究人员 / Core Technical Member  
-- 面向复杂水下环境及大数据压力识别难题，提出人工神经网络与传感器件融合方案。  
-  *Addressed low recognition accuracy in complex underwater environments by integrating neural networks with sensing technology.*  
-- 实现了不同频率下单一及多目标的智能识别。  
-  *Achieved accurate identification of both single and multiple targets at varying frequencies.*
-
----
-
-### 国家重点研发计划：“基于材料基因工程的全固态电池关键材料设计与应用”（2022.11 – 2025.10）  
-**National Key R&D Program – "Materials Genome-Based Design and Application of Solid-State Battery Materials"**  
-参与 / Participant  
-- 针对固态电池中枝晶诱导的应力集中问题，设计用于电池内部的微型压力传感器。  
-  *Designed miniature pressure sensors for in-situ stress monitoring in solid-state batteries to address dendrite-induced failure.*  
-- 实现电池内部应力的实时监测与调控分析。  
-  *Enabled real-time stress monitoring and diagnostics within the battery core.*
+-国家重点研发计划：“基于材料基因工程的全固态电池关键材料设计与应用”（2022.11 – 2025.10）  
+ 参与 / Participant  
+ 针对固态电池由于枝晶生长引起应力集中导致电池失效的问题，研制了一种可用于电池内部的压力传感器件，实现了电池内部应力的实时监测。
 
