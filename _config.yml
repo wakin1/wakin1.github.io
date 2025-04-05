@@ -272,7 +272,7 @@ defaults:
       path: ""
       type: talks
     values:
-      layout: talk
+      layout: Poster
       author_profile: true
       share: true
 
