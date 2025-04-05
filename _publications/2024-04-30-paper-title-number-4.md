@@ -1,5 +1,5 @@
 ---
-title: '<a href="https://doi.org/10.1016/j.nanoen.2024.109690" style="color:#2a7ae2;">3. Doping effect and oxygen vacancy engineering in nickel-manganese layered double hydroxides for high-performance supercapacitors</a>'
+title: '<a href="https://doi.org/10.1016/j.nanoen.2024.109690" style="color:#2f7f93;">3. Doping effect and oxygen vacancy engineering in nickel-manganese layered double hydroxides for high-performance supercapacitors</a>'
 collection: publications
 category: co-author
 excerpt: '本研究通过镁掺杂与等离子体刻蚀联合调控NiMn-LDH纳米结构，构建富氧空位电极材料，显著提升其导电性与电化学性能，为高能量密度超级电容器设计提供新思路。<br>  
