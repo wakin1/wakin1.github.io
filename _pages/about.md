@@ -31,19 +31,19 @@ h2 {
 
 ## 📌 研究方向 / Research Interests
 
-- 基于人工智能的碳纳米材料结构可控制备、性能预测与反向设计[详细](/research/ai-carbon/)  
+- 基于材料基因工程的碳纳米材料结构可控制备、性能预测与反向设计  [详细](/research/ai-carbon/)  
   AI-enabled controlled synthesis, structure–property prediction, and inverse design of carbon nanomaterials
 
-- 多尺度模拟在碳纳米材料电-力-化学行为研究中的应用[详细](/research/multiscale-simulation/)  
-  Multiscale simulation of electro-mechanical-chemical coupling behaviors in carbon nanomaterials
+- 多尺度模拟探究碳纳米材料力-电耦合机制  [详细](/research/multiscale-simulation/)  
+  Multiscale simulation of mechanical-electro coupling behaviors in carbon nanomaterials
 
-- 水下压力传感器件的结构设计、性能测试与测试平台搭建[详细](/research/sensor-design/)  
+- 水下压力传感器件的结构设计、性能测试与测试平台搭建  [详细](/research/sensor-design/)  
   Structural design, performance characterization, and test platform development for underwater pressure sensors
 
-- 基于传感器特性的微弱信号采集电路设计与仿真[详细](/research/circuit-design/)  
+- 基于传感器特性的微弱信号采集电路设计与仿真  [详细](/research/circuit-design/)  
   Design and simulation of sensor-specific low-signal acquisition circuits
 
-- 基于人工智能的传感信号目标识别与迁移学习方法研究[详细](/research/ai-signal/)  
+- 基于人工智能的传感信号目标识别与迁移学习方法研究  [详细](/research/ai-signal/)  
   AI-based signal recognition and transfer learning for sensor data interpretation
 
 
