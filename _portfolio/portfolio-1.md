@@ -1,5 +1,5 @@
 ---
 title: ""
-excerpt: "<img src='/images/成果.png'>"
+excerpt: "<img src='/images/chengguo.png'>"
 collection: portfolio
 ---
