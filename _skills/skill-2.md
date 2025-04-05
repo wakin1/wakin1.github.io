@@ -1,5 +1,5 @@
 ---
-title: "3D建模渲染 Rhino+keyshot"
-excerpt: "<img src='/images/3d.png'>"
+title: "数值模拟计算 COMSOL+LAMMPS"
+excerpt: "<img src='/images/simu.png'>"
 collection: skills
 ---
