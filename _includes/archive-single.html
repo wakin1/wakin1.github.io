@@ -17,17 +17,11 @@
 
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-          {% endif %}
-          alt="">
+        <img src="{% if teaser contains '://' %}{{ teaser }}{% else %}{{ base_path }}/images/{{ teaser }}{% endif %}" alt="">
       </div>
     {% endif %}
 
-    <!-- ✅ 专利跳转 PDF，其他跳详情页 -->
+    <!-- 专利跳转 PDF，其他跳详情页 -->
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.category == "patent" and post.paperurl %}
         <a href="{{ post.paperurl }}" download>{{ title }}</a>
@@ -46,11 +40,11 @@
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
 
-    <!-- ✅ 日期显示（排除专利） -->
+    <!-- 日期显示（排除专利） -->
     {% if post.collection == 'teaching' %}
-      <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+      <p>{{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
     {% elsif post.collection == 'publications' and post.category != "patent" %}
-      <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+      <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
     {% elsif post.date and post.category != "patent" %}
       <p class="page__date">
         <strong>
@@ -65,41 +59,47 @@
       <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
     {% elsif post.excerpt and site.read_more == 'enabled' %}
       <p class="archive__item-excerpt" itemprop="description">
-        <p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
-          <strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong>
-        </p>
+        {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
+        <strong><a href="{{ base_path }}{{ post.url }}" rel="permalink">Read more</a></strong>
       </p>
     {% endif %}
 
-    <!-- ✅ 下载区域（排除专利） -->
+    <!-- 下载区域（排除专利） -->
     {% unless post.category == "patent" %}
       {% if post.citation and post.paperurl and post.slidesurl and post.bibtexurl %}
         <p>Recommended citation: {{ post.citation }}<br />
-          <a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+          <a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a>
+        </p>
       {% elsif post.citation and post.paperurl and post.slidesurl %}
         <p>Recommended citation: {{ post.citation }}<br />
-          <a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
+          <a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a>
+        </p>
       {% elsif post.citation and post.paperurl and post.bibtexurl %}
         <p>Recommended citation: {{ post.citation }}<br />
-          <a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+          <a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a>
+        </p>
       {% elsif post.citation and post.paperurl %}
         <p>Recommended citation: {{ post.citation }}<br />
-          <a href="{{ post.paperurl }}">Download Paper</a></p>
+          <a href="{{ post.paperurl }}">Download Paper</a>
+        </p>
       {% elsif post.citation and post.slidesurl and post.bibtexurl %}
         <p>Recommended citation: {{ post.citation }}<br />
-          <a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl}}">Download Bibtex</a></p>
+          <a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a>
+        </p>
       {% elsif post.citation and post.slidesurl %}
         <p>Recommended citation: {{ post.citation }}<br />
-          <a href="{{ post.slidesurl }}">Download Slides</a></p>
+          <a href="{{ post.slidesurl }}">Download Slides</a>
+        </p>
       {% elsif post.citation and post.bibtexurl %}
         <p>Recommended citation: {{ post.citation }}<br />
-          <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+          <a href="{{ post.bibtexurl }}">Download Bibtex</a>
+        </p>
       {% elsif post.citation %}
         <p>Recommended citation: {{ post.citation }}</p>
       {% elsif post.paperurl and post.bibtexurl %}
-        <p><a href=" {{ post.paperurl }} ">Download Paper</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+        <p><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
       {% elsif post.paperurl %}
-        <p><a href=" {{ post.paperurl }} ">Download Paper</a></p>
+        <p><a href="{{ post.paperurl }}">Download Paper</a></p>
       {% elsif post.slidesurl and post.bibtexurl %}
         <p><a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
       {% elsif post.slidesurl %}
